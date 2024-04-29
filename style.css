@@ -489,6 +489,7 @@ body {
     border-radius: 0;
     height: -moz-fit-content;
     height: fit-content;
+    background: url(images/bg-pattern-intro-mobile.svg), var(--Light-red-gradient);
   }
   .contain .header nav .menu i {
     display: block;
