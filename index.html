@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Images/app-development.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+  <div class="contain">
+    <div class="header">
+      <nav>
+        <div class="menu_left">
+          <div class="logo">
+            <img src="images/logo.svg" alt="logo">
+          </div>
+          <ul>
+            <li>
+              <div class="product">
+                <a href="">Product</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <ul class="list productul none" id="productlist">
+                <li><a href="">Overview</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Integrtions</a></li>
+              </ul>
+            </li>
+            <li>
+              <div class="company">
+                <a href="">Company</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <ul class="list Companyul none" id="Companylist">
+                <li><a href="">About</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Carrers</a></li>
+              </ul>
+            </li>
+            <li >
+              <div class="connect">
+                <a href="">Connect</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </div>
+              <ul class="list Connectul none" id="Connectlist">
+                <li><a href="">Contact</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Linkedin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="menu">
+          <div class="buttons">
+            <button class="btn_login">Login</button>
+            <button class="btn_signup">Sign Up</button>
+          </div>
+          <i class="fa-solid fa-bars" id="bars"></i>
+        </div>
+      </nav>
+      <div class="txt">
+        <h1>A modern publishing platform</h1>
+        <p>Grow your audience and build your online brand</p>
+        <div class="buttons">
+          <button class="btn_start">Start for Free</button>
+          <button class="btn_learn">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <span class="title">Designed For the Fuature</span>
+      <div class="cont_details">
+        <div class="txt_cont_details">
+          <div class="card">
+            <span>Introducing an extensible editor</span>
+            <p> Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.</p>
+            </div>
+            <div class="card">
+            <span>Robust content management</span>
+            <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+          </div>
+        </div>
+        <div class="image_cont_details">
+          <img src="images/illustration-editor-desktop.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="section3">
+      <div class="img">
+        <img src="images/illustration-phones.svg" alt="">
+      </div>
+      <div class="txt">
+        <span>State of the Art Infrastructure</span>
+        <p>  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </div>
+    </div>
+    <div class="section4">
+      <div class="img">
+        <img src="images/illustration-laptop-desktop.svg" alt="">
+      </div>
+      <div class="txt">
+          <div class="card">
+            <span>Free, open, simple</span>
+            <p>  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+              features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+              and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+          </div>
+          <div class="card">
+            <span>Powerful tooling</span>
+            <p> Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                capable of producing even the most complicated sites.</p>
+          </div>
+      </div>
+    </div>
+    <footer>
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="links_Cont grid-cols-3 xl:grid grid-cols-3 gap-[10rem]">
+        <div class="links">
+          <span>Product</span>
+          <ul>
+            <li><a href="">OverView</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">MarketPlace</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Integrtions</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <span>Company</span>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Carrers</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <span>Connect</span>
+          <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="menulinks none" id="menulinks">
+      <ul>
+        <li>
+          <div class="product">
+            <a href="">Product</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="none" id="Product_ul">
+            <li><a href="">Overview</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Marketplace</a></li>
+            <li><a href="">Features</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="company">
+            <a href="">Company</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="none" id="Company_ul">
+            <li><a href="">About</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Carrers</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="connect">
+            <a href="">Connect</a>
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <ul class="none" id="Connect_ul">
+            <li><a href="">Contact</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+      <hr>
+      <div class="buttons">
+        <button class="btn_login">Login</button>
+        <button class="btn_signup">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
